@@ -1,0 +1,87 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#div2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#div3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#div1 {
+  background-color: darkgrey;
+  width: 1000px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 0.5s linear 0s;
+}
+
+.child {
+  width: 200px;
+  height: 150px;
+  border: 0.5px solid grey;
+  box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.child {
+  transition: all 0s linear 0s;
+}
+.child1 {
+  transform: rotate(355deg);
+}
+
+.child2 {
+  transform: rotate(9deg);
+}
+
+.child3 {
+  transform: rotate(349deg);
+}
+
+.child4 {
+  transform: rotate(7deg);
+}
+.child5 {
+  transform: rotate(356deg);
+}
+
+.child6 {
+  transform: rotate(346deg);
+}
+.child7 {
+  transform: rotate(353deg);
+}
+
+.child8 {
+  transform: rotate(12deg);
+}
+.child1:hover,
+.child2:hover,
+.child3:hover,
+.child4:hover,
+.child5:hover,
+.child6:hover,
+.child7:hover,
+.child8:hover {
+  transform: rotate(0deg) scale(1.25);
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 7px 10px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 10px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 12px 0px rgba(0, 0, 0, 0.75);
+}
